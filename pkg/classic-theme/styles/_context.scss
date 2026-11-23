@@ -1,0 +1,27 @@
+// Global Sass values the dashboard had in scope when it compiled the Classic theme.
+// They came from shell/assets/styles/base/_color.scss and themes/_modern.scss, which
+// an extension build does not prepend and which emit CSS of their own if imported.
+$blue001: #1F67DB;
+$blue002: #DFE6F2;
+$blue003: #297DB4;
+
+$green001: #007032;
+$green002: #DCE7E1;
+
+$yellow001: #FFE47A;
+$yellow002: #473900;
+
+$red001: #B13333;
+$red002: #F2E0E0;
+
+$gray001: #EDEFF3;
+$gray002: #DCDEE4;
+$gray003: #FFF;
+$gray004: #6C6C76;
+$gray005: #4A4B52;
+$gray006: #1b1c21;
+
+$grey-0: #FFFFFF;
+
+$contrasted-dark: #141419;
+$contrasted-light: #FFFFFF;

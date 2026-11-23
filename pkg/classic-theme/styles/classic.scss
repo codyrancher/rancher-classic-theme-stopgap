@@ -1,0 +1,28 @@
+// The Classic theme as the dashboard shipped it before rancher/dashboard#19924 removed it.
+// _light.scss, _dark.scss, _color-classic.scss and _variables-classic.scss are copied unchanged
+// apart from their import paths. Everything is scoped to `.classic.theme-light` and
+// `.classic.theme-dark`, so it only applies while the body carries the `classic` class.
+@import "./context";
+@import "./light";
+@import "./dark";
+
+// The dashboard compiled Classic in the same Sass run as its global stylesheets, so two of their
+// effects reached it. Both are repeated here so the result matches what the dashboard shipped.
+
+// global/_button.scss: an active button in a button group extends .bg-primary, Classic's included.
+.btn-group .btn.active {
+  @extend .bg-primary;
+}
+
+// global/_labeled-input.scss colored input addons with $secondary, which Classic's palette set.
+// :where() keeps the specificity the original rule had.
+:where(.classic) .labeled-input {
+  &.create,
+  &.edit,
+  &.view {
+    .addon,
+    .addon.btn {
+      color: #{$secondary};
+    }
+  }
+}
