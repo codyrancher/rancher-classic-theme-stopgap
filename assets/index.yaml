@@ -12,6 +12,27 @@ entries:
       catalog.cattle.io/ui-component: plugins
       catalog.cattle.io/ui-extensions-version: '>= 3.0.0 < 4.0.0'
     apiVersion: v2
+    appVersion: 0.1.1
+    created: "2026-11-23T14:37:07.428988104Z"
+    description: The Classic theme for the Rancher dashboard, restored for clusters
+      whose ui-brand setting is classic
+    digest: a423c3b70e1ecfa4e2d9cfc0e74fe7d5cb42d91358c638894ca1248856cfe6d9
+    name: classic-theme
+    type: application
+    urls:
+    - assets/classic-theme/classic-theme-0.1.1.tgz
+    version: 0.1.1
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/display-name: Classic Theme
+      catalog.cattle.io/namespace: cattle-ui-plugin-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux, windows
+      catalog.cattle.io/rancher-version: '>= 2.10.0'
+      catalog.cattle.io/scope: management
+      catalog.cattle.io/ui-component: plugins
+      catalog.cattle.io/ui-extensions-version: '>= 3.0.0 < 4.0.0'
+    apiVersion: v2
     appVersion: 0.1.0
     created: "2026-11-23T14:13:38.48569489Z"
     description: The Classic theme for the Rancher dashboard, restored for clusters
@@ -22,4 +43,4 @@ entries:
     urls:
     - assets/classic-theme/classic-theme-0.1.0.tgz
     version: 0.1.0
-generated: "2026-11-23T14:13:38.48527841Z"
+generated: "2026-11-23T14:37:07.428644058Z"

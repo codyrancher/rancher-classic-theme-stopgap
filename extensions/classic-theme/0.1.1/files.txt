@@ -1,0 +1,3 @@
+plugin/classic-theme-0.1.1.umd.min.js
+plugin/classic-theme-0.1.1.umd.min.js.map
+plugin/package.json
