@@ -1,9 +1,10 @@
 {
   "name": "classic-theme",
   "description": "The Classic theme for the Rancher dashboard, restored for clusters whose ui-brand setting is classic",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "rancher": {
+    "noAuth": true,
     "annotations": {
       "catalog.cattle.io/display-name": "Classic Theme",
       "catalog.cattle.io/rancher-version": ">= 2.10.0",

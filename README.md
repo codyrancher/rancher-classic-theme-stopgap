@@ -10,14 +10,16 @@ and this extension retired.
 ## Install
 
 1. In Rancher, open **Extensions**, then **⋮ > Manage Repositories > Create**.
-2. Pick **Git repository containing Helm chart or cluster template definitions** and enter:
+2. Pick **Git Repository** and enter:
    - Git Repo URL: `https://github.com/codyrancher/rancher-classic-theme-stopgap`
    - Git Branch: `gh-pages`
-3. Under **Extensions > Available**, install **Classic Theme** and reload when asked.
+3. Under **Extensions > Available**, open the **Classic Theme** card's **⋮ > Install**, then press **Reload** when the
+   page asks.
 4. Turn the theme on the way the dashboard always did: **Global Settings > Settings > ui-brand > ⋮ > Edit Setting**, set
    the value to `classic` and save.
 
-Light and dark follow each user's **Preferences > Theme**. To turn Classic off, reset `ui-brand` or uninstall the extension.
+Light and dark follow each user's **Preferences > Theme**, and the login page is Classic too. To turn Classic off, reset
+`ui-brand` or uninstall the extension.
 
 On a Rancher whose dashboard still ships Classic, the extension changes nothing.
 
